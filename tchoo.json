@@ -1,0 +1,40 @@
+{
+  "name": "json-server",
+  "version": "0.1.0",
+  "description": "Image Docker de json-server permettant de créer de fausses API REST pour les tests de développement.",
+  "projectType": "infra",
+  "team": [
+    "Frédéric Lasnier (Lead dev)"
+  ],
+  "dates": {
+    "start": "2024-03-18",
+    "milestones": []
+  },
+  "stack": {
+    "backend": {
+      "runtime": "node",
+      "framework": "json-server",
+      "container": "docker"
+    },
+    "shared": [
+      "docker",
+      "bash"
+    ]
+  },
+  "methodologies": [],
+  "paths": {
+    "docs": "${TCHOO_VAULT_PATH}/10-project/json-server/docs"
+  },
+  "integrations": {
+    "obsidian": {
+      "vault": "${TCHOO_VAULT_PATH}",
+      "project": "10-project/json-server",
+      "index": "10-project/json-server/index.md"
+    }
+  },
+  "docRules": {
+    "format": "markdown",
+    "language": "fr",
+    "outputDir": "${TCHOO_VAULT_PATH}/10-project/json-server/docs"
+  }
+}
