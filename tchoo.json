@@ -23,18 +23,20 @@
   },
   "methodologies": [],
   "paths": {
-    "docs": "${TCHOO_VAULT_PATH}/10-project/json-server/docs"
+    "docs": "${TCHOO_VAULT_PATH}/10-project/Infrastructure/Data-Layer/json-server/docs"
   },
   "integrations": {
     "obsidian": {
       "vault": "${TCHOO_VAULT_PATH}",
-      "project": "10-project/json-server",
-      "index": "10-project/json-server/index.md"
+      "project": "10-project/Infrastructure/Data-Layer/json-server",
+      "index": "10-project/Infrastructure/Data-Layer/json-server/index.md",
+      "category": "Infrastructure",
+      "family": "Data-Layer"
     }
   },
   "docRules": {
     "format": "markdown",
     "language": "fr",
-    "outputDir": "${TCHOO_VAULT_PATH}/10-project/json-server/docs"
+    "outputDir": "${TCHOO_VAULT_PATH}/10-project/Infrastructure/Data-Layer/json-server/docs"
   }
 }
